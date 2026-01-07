@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rock Paper Scissors App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>| Rock Paper Scissors Game |</h1>
+
+    <div class="butn">
+      <button onclick="userChoice = 'rock'; play()">👊</button>
+      <button onclick="userChoice = 'paper'; play()">📝</button>
+      <button onclick="userChoice = 'scissors'; play()">✂️</button>
+    </div>
+
+    <div id="result">Let's Play!</div>
+    <div id="score">Score: You: 0, Computer: 0</div>
+
+    <div class="reset-area">
+      <button id="resetBtn" onclick="resetGame()">🔄 Reset</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f1d4d9, #f9f1f2);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #ce5b65;
+  font-size: 26px;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+.butn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.butn button {
+  padding: 12px;
+  font-size: 35px;
+  background: #eea09a;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px rgba(238, 160, 146, 0.4);
+  width: 70px;
+  height: 70px;
+}
+
+.butn button:hover {
+  background-color: #f1b3ae;
+  transform: scale(1.1);
+}
+
+#result {
+  margin-top: 20px;
+  min-height: 50px;
+  font-size: 20px;
+  color: #80353c;
+  font-weight: bold;
+}
+
+#score {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #4a3c3c;
+}
+
+.reset-area {
+  margin-top: 30px;
+}
+
+#resetBtn {
+  padding: 12px 25px;
+  font-size: 18px;
+  background-color: #f7d6d0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px rgba(238, 160, 146, 0.4);
+}
+
+#resetBtn:hover {
+  background-color: #f1b3ae;
+  transform: scale(1.05);
+}
+@media (max-width: 480px) {
+  .butn button {
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  #result,
+  #score {
+    font-size: 16px;
+  }
+
+  #resetBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+}
+
+/* body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #f3e8e8;
+}
+h1 {
+  margin-bottom: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px 0;
+}
+button {
+  font-size: 40px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  background: rgb(231, 119, 99);
+}
+button:active {
+  transform: scale(0.95);
+}
+#result,
+#score {
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+@media (max-width: 500px) {
+  button {
+    font-size: 30px;
+  }
+  #result,
+  #score {
+    font-size: 16px;
+  }
+} */
